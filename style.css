@@ -1,0 +1,187 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Ubuntu:ital,wght@1,300&display=swap');
+</style>
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 90vh;
+    
+
+}
+
+img {
+    height: 195px;
+
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1000px;
+    padding: 50px 50px 30px 50px;
+    scale: 1.2;
+}
+
+.formulario-email {
+    gap: 15px;
+    display: flex;
+    border:solid 0.5px gray;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    justify-content: end;
+    
+}
+
+.formulario-senha {
+    gap: 15px;
+    display: flex;
+    border:solid 0.5px gray;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    justify-content: end;
+    
+}
+
+#emial {
+    border: none;
+    justify-content: space-between;
+
+
+}
+
+#senha {
+    border: none;
+    justify-content: space-between;
+
+
+}
+
+.botao {
+    padding: 20px;
+}
+
+button {
+    text-decoration: none;
+    padding: 10px 75px 10px 75px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    scale: 1.2;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+}
+
+button:hover {
+    scale: 1.3;
+    cursor: pointer;
+}
+
+.esqueceu a {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+    font-size: small;
+
+}
+
+input {
+    outline: none;
+    padding: 1px;
+    font-size: 12px;
+    width: 250px;
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'Ubuntu', sans-serif;
+    
+    bottom: 0;
+    
+}
+
+.menu-rodape {
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+    justify-content: flex-end;
+    
+}
+
+.botao a {
+    text-decoration: none;
+    background-color: darkblue;
+    padding: 15px 75px 15px 75px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.botao a:hover {
+    text-decoration: none;
+    background-color: rgb(9, 9, 187);
+    padding: 15px 75px 15px 75px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    scale: 2;
+}
+
+.eli {
+    width: 300px;
+    display: flex;
+    scale:3;
+    
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 500px
+
+    
+    
+}
+
+.joan {
+    display: flex;
+    scale: 1.1;
+}
+
+.ti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: red;
+}
+
